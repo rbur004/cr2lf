@@ -1,0 +1,4 @@
+*.o
+cr2lf
+lf2cr
+lf2crlf
