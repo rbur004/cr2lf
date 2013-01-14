@@ -7,6 +7,10 @@
 * cr2lf reads from the standard input, changes LF's into CR's, and writes to the standard output
 * lf2cr reads from the standard input, changes CR's into LF's, and writes to the standard output
 * lf2crlf reads from the standard input, adds a CR before each LF, and writes to the standard output
+* lfcr2lf reads from the standard input, converts LFCR to LF (and lone CR to LF), and writes to the standard output
+* crlf2lf reads from the standard input, converts CRLF to LF (and lone CR to LF), and writes to the standard output
+* bin/cr2lf.sh takes multiple file arguments and runs cr2lf with each file as stdin and file.lf as stdout
+* platypus config for a Mac OS X app files can be dropped on, to run cr2lf.sh
 
 ## FEATURES/PROBLEMS:
 
