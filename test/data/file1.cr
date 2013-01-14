@@ -1,0 +1,1 @@
+Test of file with CR line terminiationabcd

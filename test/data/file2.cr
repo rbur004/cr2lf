@@ -1,0 +1,1 @@
+Test of file with CR line terminiation1234
